@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Random Quote Machine</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--fonts-->
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Tangerine|Indie+Flower|Droid+Sans:b|Yellowtail|Spirax&effect=fire-animation|canvas-print">
+        <!--CSS-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">        
+        <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/random_quote.css">
+        <!--JS-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/random_quote.js"></script>
+    </head>
+    <body translate="no">
+        <header>
+            <br><br><br><br>
+            <h1 class="font-effect-fire-animation"><strong>Random Quote Machine</strong></h1>
+            <h2 class="font-effect-canvas-print"><strong>Hear What The Oracle Says</strong></h2>
+        </header>
+        <div class="quote-box">
+            <div class="quote-text">
+                <i class="fa fa-quote-left"></i>
+                <span id="text">Whoever tells the best story wins.</span>
+                <i class="fa fa-quote-right"></i>
+            </div>
+            <div class="quote-author">
+                <br><i>- </i><span id="author">Annette Simmons</span>
+            </div>
+            <div class="buttons">
+                <a  class="button" id="tweetquote" target="_blank" title="Tweet this quote!"><i class="fa fa-twitter"></i></a>
+                <button class="button" id="newquote" title="Get a new quote!">New Quote</button>
+            </div>
+        </div>
+        <footer>
+            <div>Created by <strong><a href="https://codepen.io/MoonStar611/full/wJOxgB/" style="text-decoration: none" target="_blank">QIAOCHU WANG</a></strong></div>
+        </footer>
+    </body>
+</html>
